@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ClockTime
+comment0.text=\r\n\ Concrete\ class\ used\ as\ a\ "smart"\ encapsulated\ variable\ to\ represent\ elapsed\ moments\ of\ time\ for\ a\ clock\ object.\r\n\ For\ purposes\ of\ this\ simulation\ one\ tick\ represents\ one\ second\ of\ elapsed\ time\ if\ {@link\ Clock\#driftPerSecond}\ is\ zero.\r\n\r\n\ @author\ Daniel\ Williams\r\n\ @author\ Matthew\ Ambrose\r\n\ @version\ 1.0\ CIS175\ Spring\ 2019\r\n
+comment1.params=
+comment1.target=long\ getTicks()
+comment1.text=\r\n\ Standard\ Getter\ method.\r\n\r\n\ @returns\ current\ time\ in\ ticks.\r\n
+comment2.params=ticks
+comment2.target=void\ setTicks(long)
+comment2.text=\r\n\ Standard\ Setter\ method.\r\n\r\n\ @param\ ticks\ long\ int\ quantity\ of\ seconds\r\n
+comment3.params=
+comment3.target=void\ resetTicks()
+comment3.text=\r\n\ Variant\ Setter\ method,\ it\ always\ sets\ ticks\ to\ zero.\r\n
+comment4.params=_driftPerSecond
+comment4.target=void\ incrementClockTime(double)
+comment4.text=\r\n\ Variant\ Setter\ method,\ it\ always\ increases\ ticks\ by\ exactly\ one.\r\n
+comment5.params=
+comment5.target=double\ getSeconds()
+comment5.text=\r\n\ Standard\ Getter\ method.\r\n\r\n\ @returns\ the\ simulated\ elapsed\ time\ in\ fractional\ seconds.\r\n\ @see\ Clock\#driftPerSecond\r\n
+comment6.params=
+comment6.target=long\ getWholeSeconds()
+comment6.text=\r\n\ Variant\ Getter\ method,\ truncates\ fractional\ seconds\ into\ a\ whole\ (long)\ number.\r\n\r\n\ @returns\ the\ simulated\ elapsed\ time\ in\ whole\ seconds.\r\n\ @see\ Clock\#driftPerSecond\r\n
+comment7.params=_driftPerSecond
+comment7.target=void\ setRealSeconds(double)
+comment7.text=\r\n\ Variant\ Setter\ method,\ calculates\ the\ simulated\ elapsed\ time\ using\ this\ clock's\ {@link\ Clock\#driftPerSecond}\ value.\r\n\ @param\ currentDrift\ use\ this\ clock's\ {@link\ Clock\#driftPerSecond}\ value.\r\n
+numComments=8
