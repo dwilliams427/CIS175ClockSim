@@ -1,6 +1,6 @@
 package cis175.clockproject;
 
-import static cis175.clockproject.Clock_Interface.CLOCK_TYPE.*;
+import static cis175.clockproject.Clock_Interface.CLOCK_TYPE;
 
 /**
  * main logic section to run simulations from.
@@ -25,8 +25,6 @@ public class Main {
         System.gc();    	// request object cleanup from JVM garbage collector
 
     }
-
-
 
 }
 
