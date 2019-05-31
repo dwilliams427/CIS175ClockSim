@@ -1,6 +1,6 @@
 package cis175.clockproject;
 
-import static cis175.clockproject.Clock_Interface.CLOCK_TYPE;
+import static cis175.clockproject.Clock_Interface.CLOCK_TYPE.*;
 
 /**
  * abstract class - root class of all other simulated clock classes.
@@ -41,7 +41,6 @@ public abstract class Clock implements Clock_Interface {
         // initialTime.setTicks(_initialTime);
         driftPerSecond = _driftPerSecond;
         clockName = _clockName;
-        
     }
 
 }

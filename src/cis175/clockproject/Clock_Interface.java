@@ -1,6 +1,6 @@
 package cis175.clockproject;
 
-import static cis175.clockproject.Clock_Interface.CLOCK_TYPE;
+import static cis175.clockproject.Clock_Interface.CLOCK_TYPE.*;
 
 /**
  * Declares three abstract methods to be implemented by all concrete subclasses.
